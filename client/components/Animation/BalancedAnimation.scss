@@ -1,4 +1,3 @@
-
 #container {
     width: 600px;
     height: 400px;
@@ -9,11 +8,10 @@
     position: relative;
   }
   
-
-  // --- controls sleep style state { totalTime:16, inhale: totalTime/4, inHold: totalTime/4, exhale: totalTime/8 }
-  .sleep {
+  // --- controls balanced style state { totalTime:20, inhale: totalTime/4, inHold: totalTime/4, exhale: totalTime/4, exHold: totalTime/8 }
+  .balanced {
     border-radius: 50%;
-    background-color: rgba(249, 135, 238, 0.753);
+    background-color: rgba(0, 255, 136, 0.753);
     width: 150px;
     height: 150px;
     position: absolute;
@@ -26,17 +24,17 @@
     }
     25% {
       transform: scale(2.5, 2.5);
-    }    
+    }
     50% {
       transform: scale(2.5, 2.5);
     }
-    99%{
+    75%{
       transform: scale(0.5, 0.5);
     }
-    100%{
+   100%{
       transform: scale(0.5, 0.5);
     }
-   
   }
-  // end sleep ---
+  // end balanced ---
+  
   

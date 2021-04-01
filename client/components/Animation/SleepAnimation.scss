@@ -10,10 +10,10 @@
   }
   
 
-  // --- controls sleep style state { totalTime:16, inhale: totalTime/4, inHold: totalTime/4, exhale: totalTime/8 }
+  // --- controls sleep style state { totalTime:20, inhale: totalTime/4, inHold: totalTime/4, exhale: totalTime/4, exHold: totalTime/8 }
   .sleep {
     border-radius: 50%;
-    background-color: rgba(249, 135, 238, 0.753);
+    background-color: rgba(229, 255, 0, 0.753);
     width: 150px;
     height: 150px;
     position: absolute;
@@ -26,17 +26,16 @@
     }
     25% {
       transform: scale(2.5, 2.5);
-    }    
+    }
     50% {
       transform: scale(2.5, 2.5);
     }
-    99%{
+    75%{
       transform: scale(0.5, 0.5);
     }
-    100%{
+   100%{
       transform: scale(0.5, 0.5);
     }
-   
   }
   // end sleep ---
   
